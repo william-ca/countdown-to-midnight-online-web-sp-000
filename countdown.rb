@@ -1,9 +1,8 @@
 #write your code here
 
 def countdown(sec)
-  sec -= 1
   until sec = 0 do
     puts "#{sec} SECOND(S)!"
+    sec -= 1
   end
-  puts "HAPPY NEW YEAR!"
 end
