@@ -1,8 +1,8 @@
 #write your code here
 
-def countdown(sec)
-  until sec = 0 do
-    puts "#{sec} SECOND(S)!"
-    sec -= 1
+def countdown(seconds)
+  until seconds = 0 do
+    puts "#{seconds} SECOND(S)!"
+    seconds -= 1
   end
 end
